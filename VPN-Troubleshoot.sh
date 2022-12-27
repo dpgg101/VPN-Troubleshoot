@@ -26,7 +26,7 @@ if [ "$vpn_interfaces" -gt 1 ]; then
         echo -e "${YELLOW}Warning: Multiple VPN interfaces detected.${ORG}"
     fi
     echo -e "You appear to be connected to the VPN."
-    ip a | grep tun | awk '{print $2}' | sed 'N;s/\n/ /'
+    ip a | grep tun | awk '{print $2}' | sed 'N;s/\n/ /' | awk -F '/' '{print $1}'
 else
     echo -e "${RED}You do not appear to be connected to the VPN. ${ORG}"
 fi
