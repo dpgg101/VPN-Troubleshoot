@@ -9,7 +9,7 @@ The script was created with the intent to help users to troubleshoot their VPN c
 
 
 - Download the bash script or clone the repository
-- Make the file executable ``chmod +x VPN-Troubleshoot`` or run the following command ``bash VPN-Troubleshoot.sh``
+- Make the file executable ``chmod +x VPN-Troubleshoot.sh`` or run the following command ``bash VPN-Troubleshoot.sh``
 - You will be prompted to submit the target IP address
 
 # Sample output
