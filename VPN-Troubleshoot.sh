@@ -6,15 +6,6 @@ RED="\033[01;31m"
 GREEN="\033[0;32m"
 ORG="\033[00m" # Original color
 YELLOW="\033[0;33m"
-#!/bin/bash
-
-# Author: dpgg
-
-# Define colors for output text
-RED="\033[01;31m"
-GREEN="\033[0;32m"
-ORG="\033[00m" # Original color
-YELLOW="\033[0;33m"
 
 # Get current user and UID
 user=$(id -u -n)
