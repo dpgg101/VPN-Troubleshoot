@@ -3,7 +3,7 @@
 
 The script was created with the intent to help users to troubleshoot their VPN connections to either HackTheBox, CyberSecLabs, Proving Grounds and TryHackMe. It is in early stage so do not expect much.
 
-
+This was inspired by CyberSecLabs troubleshooting script.
 
 # Quick Start
 
