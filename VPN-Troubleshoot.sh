@@ -66,4 +66,4 @@ traceroute "$target"
 
 # Perform fast scan on top 1000 ports
 echo -e "\n${GREEN}====== Fast scan on top 1000 ports ======${ORG}"
-nmap -T4 -A $target
+sudo nmap -T4 -A $target
