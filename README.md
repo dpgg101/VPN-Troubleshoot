@@ -13,4 +13,4 @@ This was inspired by CyberSecLabs troubleshooting script.
 - You will be prompted to submit the target IP address
 
 # Sample output
-[](https://i.imgur.com/ArbLYEF.png)
+<img src="sample.png">
